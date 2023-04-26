@@ -9,7 +9,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#beea7d 30%, #e81477 70%);
+    background-color: #303947;
 }
 
 .container{
@@ -136,6 +136,7 @@ p{
     text-align: center;
 }
 
+
 @media screen and (max-width: 600px) {
     .container{
         font-size: 14px;
@@ -149,5 +150,11 @@ p{
     .info{
         grid-template-columns: 1fr;
     }
+    
+}
+.admin{
+    color: #fff;
+    display: flex;
+    font-size: 0.95em;
 
 }
